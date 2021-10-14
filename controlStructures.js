@@ -60,7 +60,7 @@ else if (number3>number1 && number3>number2)
             console.log(number3 + ", " + number2 + ", " +number1);
         }
 }  
-    if (username > 6 && password >= 8 )
+    if (username.length > 6 && password.length >= 8 )
     {
       console.log(`login successful`);
     }  
@@ -68,7 +68,6 @@ else if (number3>number1 && number3>number2)
 console.log(`login failed`);
   } 
 
-  
 while (i <= 20) 
 {   
   console.log(i);
